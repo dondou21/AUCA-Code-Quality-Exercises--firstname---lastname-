@@ -8,5 +8,6 @@
 }
  */
 function calculateMatrixSum(matrix) {
-  return matrix.flatMap(row => row).reduce((accumulator, currentValue) => accumulator + currentValue, 0)
+  return matrix.flatMap(row => row).reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+
 }
