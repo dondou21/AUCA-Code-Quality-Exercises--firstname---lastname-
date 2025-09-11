@@ -14,4 +14,3 @@ function findEvenNumbers(numbers) {
     return numbers.filter((number) => number%2 === 0)
 }
 
-console.log(findEvenNumbers([2,3,5,7,6,8,9]))

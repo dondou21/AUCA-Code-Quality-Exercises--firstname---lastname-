@@ -13,6 +13,8 @@
  */
 
 function calculateAverage(numbers) {
-    return numbers.reduce((accumulator, currentValue) => accumulator + currentValue,0)/numbers.length
+  
+  const total = numbers.reduce((accumulator, currentValue) => accumulator + currentValue,0)
+  return total /numbers.length
 }
 
